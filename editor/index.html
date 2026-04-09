@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lightbringers Wiki Editor</title>
+  <script>
+    window.__WIKI_ASSET_BASE__ = window.__WIKI_ASSET_BASE__ || "https://rq-inn.com/wiki";
+    window.__WIKI_API_BASE__ = window.__WIKI_API_BASE__ || "https://rq-inn.com/api/wiki";
+  </script>
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Yelmalio Edit">
+  <link rel="manifest" href="../editor.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="../icon/yelmalio-192.png">
+  <link rel="apple-touch-icon" href="../icon/yelmalio-192.png">
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body class="wiki-editor">
+  <main class="app-shell" id="app"></main>
+  <script src="../shared/js/csv.js"></script>
+  <script src="../shared/js/i18n.js"></script>
+  <script src="../shared/js/config.js"></script>
+  <script src="../shared/js/api.js"></script>
+  <script src="../shared/js/wiki-data.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="../shared/js/pwa.js"></script>
+  <script>
+    window.WikiPwa?.register({
+      manifestPath: "/wiki/editor.webmanifest",
+      swPath: "/wiki/sw.js",
+      scope: "/wiki/"
+    });
+  </script>
+</body>
+</html>

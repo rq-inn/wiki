@@ -1,0 +1,73 @@
+key,name_L1,name_L2
+APP_TITLE,Lightbringers Wiki,ライトブリンガーズWiki
+VIEWER_SUBTITLE,Unofficial RuneQuest and Glorantha fan wiki.,RuneQuest / Glorantha 非公式ファンWiki
+EDITOR_SUBTITLE,CSV based online editor for Lightbringers Wiki.,Lightbringers Wiki 用オンライン編集システム
+START_TITLE,Welcome,ようこそ
+START_BODY,Open the viewer and browse articles by table of contents, index, or search.,Viewerを開き、目次・索引・検索から記事を参照できます。
+START_BUTTON,Start,Start
+CREDIT,Credit,Credit
+CREDIT_BODY_1,This site is a creation by the unofficial RuneQuest fan club Lightbringers.,このサイトはRuneQuestの非公式ファンクラブ ライトブリンガーズ による創作です。
+CREDIT_BODY_2,This is an unofficial fan-made work based on the world of RuneQuest / Glorantha.,RuneQuest / Glorantha の世界をベースにした非公式のファンメイド作品です。
+CREDIT_BODY_3,RuneQuest and Glorantha are trademarks of Chaosium Inc. and all copyrights belong to the company.,RuneQuest と Glorantha は Chaosium Inc. の商標であり、著作権は同社に帰属します。
+CREDIT_BODY_4,Glorantha Core Rune font is used here.,Glorantha Core Rune フォントを使用しています。
+FONT_LINK,Font link,Fontリンク
+RETURN_TOP,Return Top,Return Top
+MAIN_MENU,Main Menu,メインメニュー
+TOC,Table of Contents,目次
+INDEX,Index,索引
+SEARCH,Search,検索
+ALL_CATEGORIES,All categories,すべてのカテゴリ
+SEARCH_PLACEHOLDER,Search by title, body, or category...,タイトル・本文・カテゴリで検索
+NO_RESULTS,No articles found.,該当する記事はありません。
+NO_CATEGORY,No categories available.,カテゴリはまだありません。
+RETURN_MAIN,Return Main,メインへ戻る
+ARTICLE_NOT_FOUND,Article not found.,記事が見つかりません。
+PREVIEW_EMPTY,No preview data exists.,プレビュー用データがありません。
+PREVIEW,Preview,プレビュー
+UNTITLED,Untitled,無題
+EDITOR_LOGIN,Editor Login,Editor認証
+EDITOR_LOGIN_BODY,Enter the editor password. After 3 failed attempts, access is locked for 30 minutes.,パスワードを入力してください。3回失敗すると30分ロックされます。
+PASSWORD,Password,パスワード
+LOGIN,Login,ログイン
+LOCKED_MESSAGE,Locked. Try again in {minutes} minutes.,ロック中です。{minutes}分後に再試行してください。
+LOGIN_FAILED,Password mismatch. Failed attempts: {count},パスワードが違います。失敗回数: {count}
+EDITOR_HOME,Editor Home,Editorホーム
+NEW_ARTICLE,New Article,新規作成
+ARTICLE_LIST,Article List,リスト表示
+SERVER_RELOAD,Reload,再読込
+SERVER_CONNECTED,Server connected.,サーバー接続中です。
+SERVER_DISCONNECTED,Server disconnected.,サーバーに接続できません。
+SERVER_REQUIRED,Server connection is required for saving.,保存にはサーバー接続が必要です。
+SAVE_ORDER,Save Order,並び順保存
+BACK,Back,戻る
+EDITOR_EDIT,Edit Article,記事編集
+TITLE,Title,タイトル
+TITLE_READ,Title Reading,タイトル読み
+CATEGORY,Category,カテゴリ
+STATUS,Status,状態
+ALIGN_LEFT,Left,左寄せ
+ALIGN_CENTER,Center,中央
+ALIGN_RIGHT,Right,右寄せ
+HEADING_L,Heading L,見出し大
+HEADING_M,Heading M,見出し中
+HEADING_S,Heading S,見出し小
+BOLD,Bold,太字
+LINK,Link,リンク
+LINK_PROMPT,Enter a URL.,URLを入力してください。
+BULLET_LIST,Bullet,箇条書き
+NUMBER_LIST,Numbered,番号リスト
+RUNE_INSERT,Rune insert,ルーン入力
+INSERT_IMAGE,Insert Image,画像挿入
+SAVE,Save,保存
+PUBLISH,Publish,公開
+DELETE,Delete,削除
+TITLE_REQUIRED,Title is required.,タイトルは必須です。
+OVERWRITE_CONFIRM,Overwrite the current article?,既存記事を上書きしますか？
+PUBLISHED,Article published.,記事を公開しました。
+SAVED,Article saved.,記事を保存しました。
+ORDER_UNCHANGED,No order changes to save.,並び順の変更はありません。
+ORDER_SAVED,Article order saved.,並び順を保存しました。
+DELETE_CONFIRM,Delete this article and related images?,この記事と関連画像を削除しますか？
+DELETED,Article deleted.,記事を削除しました。
+IMAGE_INSERTED,Image inserted: {name},画像を挿入しました: {name}
+STORAGE_NOT_SUPPORTED,This browser does not support File System Access API.,このブラウザはFile System Access APIに対応していません。

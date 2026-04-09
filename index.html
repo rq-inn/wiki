@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lightbringers Wiki Viewer</title>
+  <script>
+    window.__WIKI_ASSET_BASE__ = window.__WIKI_ASSET_BASE__ || "https://rq-inn.com/wiki";
+    window.__WIKI_API_BASE__ = window.__WIKI_API_BASE__ || "https://rq-inn.com/api/wiki";
+  </script>
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="LB Wiki">
+  <link rel="manifest" href="https://rq-inn.com/wiki/viewer.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://rq-inn.com/wiki/icon/lightbringers-192.png">
+  <link rel="apple-touch-icon" href="https://rq-inn.com/wiki/icon/lightbringers-192.png">
+  <link rel="stylesheet" href="https://rq-inn.com/wiki/css/common.css">
+</head>
+<body class="wiki-viewer">
+  <main class="app-shell" id="app"></main>
+  <script src="https://rq-inn.com/wiki/shared/js/csv.js"></script>
+  <script src="https://rq-inn.com/wiki/shared/js/i18n.js"></script>
+  <script src="https://rq-inn.com/wiki/shared/js/config.js"></script>
+  <script src="https://rq-inn.com/wiki/shared/js/api.js"></script>
+  <script src="https://rq-inn.com/wiki/shared/js/wiki-data.js"></script>
+  <script src="https://rq-inn.com/wiki/viewer/js/app.js"></script>
+  <script src="https://rq-inn.com/wiki/shared/js/pwa.js"></script>
+  <script>
+    window.WikiPwa?.register({
+      manifestPath: "/wiki/viewer.webmanifest",
+      swPath: "/wiki/sw.js",
+      scope: "/wiki/"
+    });
+  </script>
+</body>
+</html>
