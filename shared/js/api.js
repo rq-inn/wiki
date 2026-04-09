@@ -1,6 +1,7 @@
 (function () {
   const STORAGE_KEY = "WIKI_API_BASE";
   const DEFAULT_FILE_API_BASE = "http://127.0.0.1:3000/api/wiki";
+  const DEFAULT_WEB_API_BASE = "https://api.rq-inn.com/api/wiki";
 
   function normalizeBase(value) {
     return String(value || "").trim().replace(/\/+$/, "");
@@ -22,7 +23,7 @@
       return DEFAULT_FILE_API_BASE;
     }
 
-    return "/api/wiki";
+    return DEFAULT_WEB_API_BASE;
   }
 
   function toAbsoluteUrl(value) {

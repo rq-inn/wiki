@@ -1,6 +1,6 @@
 (function () {
   const DEFAULT_ASSET_BASE = "https://rq-inn.com/wiki";
-  const DEFAULT_API_BASE = "https://rq-inn.com/api/wiki";
+  const DEFAULT_API_BASE = "https://api.rq-inn.com/api/wiki";
 
   function normalizeBase(value) {
     return String(value || "").trim().replace(/\/+$/, "");
